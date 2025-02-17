@@ -1,5 +1,5 @@
 # Testing Tutorials-Ninja A E-commerce Website Using Manual and Automation Testing with Data-Driven.
-![](https://github.com/TaffazulAnsari/images/blob/main/image/ninja.png)
+![](https://github.com/TaffazulAnsari/images/blob/main/image/Screenshot%202025-02-18%20011423.png)
 
 ## Introduction 
 The Tutorials Ninja e-commerce platform offers a variety of features, including user registration, product browsing, cart management, and checkout. The testing focused on verifying the functionality, usability, and accessibility of these features across multiple devices and browsers.
