@@ -1,0 +1,13 @@
+<suite name="TutorialNinja Test Suite">
+    <test name="Login and Register Tests">
+        <classes>
+            <class name="TutorialNinja.Login"/>
+            <class name="TutorialNinja.Register"/>
+            <class name="TutorialNinja.Cart"/>
+            <class name="TutorialNinja.search"/>
+            <class name="TutorialNinja.shoppingcart"/>
+            <class name="TutorialNinja.wishlist"/>
+            <class name="TutorialNinja.checkout"/>
+        </classes>
+    </test>
+</suite>

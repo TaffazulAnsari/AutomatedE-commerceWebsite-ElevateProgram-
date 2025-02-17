@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T11:08:09 IST" name="TutorialNinja Test Suite" finished-at="2025-02-17T11:11:17 IST" duration-ms="188050">
+    <groups>
+    </groups>
+    <test started-at="2025-02-17T11:08:09 IST" name="Login and Register Tests" finished-at="2025-02-17T11:11:17 IST" duration-ms="188050">
+      <class name="TutorialNinja.search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:37 IST" name="setup" finished-at="2025-02-17T11:09:40 IST" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String)[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:40 IST" name="testCart" data-provider="searchData" finished-at="2025-02-17T11:09:42 IST" duration-ms="2279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:42 IST" name="teardown" finished-at="2025-02-17T11:09:42 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:42 IST" name="setup" finished-at="2025-02-17T11:09:45 IST" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String)[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:45 IST" name="testCart" data-provider="searchData" finished-at="2025-02-17T11:09:47 IST" duration-ms="2488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:47 IST" name="teardown" finished-at="2025-02-17T11:09:48 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:48 IST" name="setup" finished-at="2025-02-17T11:09:50 IST" duration-ms="2744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String)[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:09:50 IST" name="testCart" data-provider="searchData" finished-at="2025-02-17T11:10:00 IST" duration-ms="9630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Camera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.search@13d9b21f]" started-at="2025-02-17T11:10:00 IST" name="teardown" finished-at="2025-02-17T11:10:00 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.search -->
+      <class name="TutorialNinja.checkout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.checkout@4d9ac0b4]" started-at="2025-02-17T11:10:29 IST" name="setup" finished-at="2025-02-17T11:10:37 IST" duration-ms="8185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.checkout@4d9ac0b4]" started-at="2025-02-17T11:10:37 IST" name="testCheckout" data-provider="checkoutData" finished-at="2025-02-17T11:10:56 IST" duration-ms="18986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAVE10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bihar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[800001.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GIFT7979]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.checkout@4d9ac0b4]" started-at="2025-02-17T11:10:56 IST" name="teardown" finished-at="2025-02-17T11:10:57 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.checkout@4d9ac0b4]" started-at="2025-02-17T11:10:57 IST" name="setup" finished-at="2025-02-17T11:11:00 IST" duration-ms="3892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.checkout@4d9ac0b4]" started-at="2025-02-17T11:11:00 IST" name="testCheckout" data-provider="checkoutData" finished-at="2025-02-17T11:11:16 IST" duration-ms="15946" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WELCOME5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[75001.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[GIFT50]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="#collapse-voucher" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed" aria-expanded="false">...</a> is not clickable at point (281, 526). Other element would receive the click: <div id="modal-shipping" class="modal in" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=132.0.6834.197)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3254deedcfb83b9a5b544a993cad36cc, clickElement {id=f.5CA7E2AF7DCA4E32583F19DC5F5D02D1.d.EC20BE8860C928D0E661D89DA6808625.e.132}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.197, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\taffa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50550/devtoo..., se:cdpVersion: 132.0.6834.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3254deedcfb83b9a5b544a993cad36cc)] -> link text: Use Gift Certificate]
+Session ID: 3254deedcfb83b9a5b544a993cad36cc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#collapse-voucher" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed" aria-expanded="false">...</a> is not clickable at point (281, 526). Other element would receive the click: <div id="modal-shipping" class="modal in" style="display: block; padding-right: 17px;">...</div>
+  (Session info: chrome=132.0.6834.197)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3254deedcfb83b9a5b544a993cad36cc, clickElement {id=f.5CA7E2AF7DCA4E32583F19DC5F5D02D1.d.EC20BE8860C928D0E661D89DA6808625.e.132}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.197, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\taffa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50550}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50550/devtoo..., se:cdpVersion: 132.0.6834.197, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3254deedcfb83b9a5b544a993cad36cc)] -> link text: Use Gift Certificate]
+Session ID: 3254deedcfb83b9a5b544a993cad36cc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at TutorialNinja.checkout.testCheckout(checkout.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.checkout@4d9ac0b4]" started-at="2025-02-17T11:11:16 IST" name="teardown" finished-at="2025-02-17T11:11:17 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.checkout -->
+      <class name="TutorialNinja.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:08:50 IST" name="setup" finished-at="2025-02-17T11:08:54 IST" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:08:54 IST" name="testRegister" data-provider="RegisterData" finished-at="2025-02-17T11:08:58 IST" duration-ms="4133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taffazul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ansari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[taffazulansari@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.979047741E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:08:58 IST" name="teardown" finished-at="2025-02-17T11:08:58 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:08:58 IST" name="setup" finished-at="2025-02-17T11:09:02 IST" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:09:02 IST" name="testRegister" data-provider="RegisterData" finished-at="2025-02-17T11:09:06 IST" duration-ms="4058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Merab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HeyItsMerab@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.87654321E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sk456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sk456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:09:06 IST" name="teardown" finished-at="2025-02-17T11:09:06 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:09:06 IST" name="setup" finished-at="2025-02-17T11:09:10 IST" duration-ms="3686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:09:10 IST" name="testRegister" data-provider="RegisterData" finished-at="2025-02-17T11:09:14 IST" duration-ms="3508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rahulkr@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.795827177E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testPass789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testPass789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Register@4df5bcb4]" started-at="2025-02-17T11:09:14 IST" name="teardown" finished-at="2025-02-17T11:09:14 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.Register -->
+      <class name="TutorialNinja.wishlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.wishlist@62727399]" started-at="2025-02-17T11:10:07 IST" name="setup" finished-at="2025-02-17T11:10:11 IST" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testWishList(java.lang.String)[pri:0, instance:TutorialNinja.wishlist@62727399]" started-at="2025-02-17T11:10:11 IST" name="testWishList" data-provider="wishlistData" finished-at="2025-02-17T11:10:17 IST" duration-ms="6827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWishList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.wishlist@62727399]" started-at="2025-02-17T11:10:17 IST" name="teardown" finished-at="2025-02-17T11:10:18 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.wishlist@62727399]" started-at="2025-02-17T11:10:18 IST" name="setup" finished-at="2025-02-17T11:10:21 IST" duration-ms="3583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testWishList(java.lang.String)[pri:0, instance:TutorialNinja.wishlist@62727399]" started-at="2025-02-17T11:10:21 IST" name="testWishList" data-provider="wishlistData" finished-at="2025-02-17T11:10:29 IST" duration-ms="7465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple cinema 30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWishList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.wishlist@62727399]" started-at="2025-02-17T11:10:29 IST" name="teardown" finished-at="2025-02-17T11:10:29 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.wishlist -->
+      <class name="TutorialNinja.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:09 IST" name="setup" finished-at="2025-02-17T11:08:12 IST" duration-ms="2774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:12 IST" name="testLogin" data-provider="LoginData" finished-at="2025-02-17T11:08:16 IST" duration-ms="3970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taffazul01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:16 IST" name="teardown" finished-at="2025-02-17T11:08:16 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:16 IST" name="setup" finished-at="2025-02-17T11:08:20 IST" duration-ms="3805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:20 IST" name="testLogin" data-provider="LoginData" finished-at="2025-02-17T11:08:23 IST" duration-ms="2780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taffazul05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password205]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:23 IST" name="teardown" finished-at="2025-02-17T11:08:23 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:23 IST" name="setup" finished-at="2025-02-17T11:08:47 IST" duration-ms="23887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:47 IST" name="testLogin" data-provider="LoginData" finished-at="2025-02-17T11:08:50 IST" duration-ms="2742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ansari001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Login@2250b9f2]" started-at="2025-02-17T11:08:50 IST" name="teardown" finished-at="2025-02-17T11:08:50 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.Login -->
+      <class name="TutorialNinja.shoppingcart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.shoppingcart@2826f61]" started-at="2025-02-17T11:10:00 IST" name="setup" finished-at="2025-02-17T11:10:05 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testShoppingCart(java.lang.String)[pri:0, instance:TutorialNinja.shoppingcart@2826f61]" started-at="2025-02-17T11:10:05 IST" name="testShoppingCart" data-provider="cartData" finished-at="2025-02-17T11:10:07 IST" duration-ms="1785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.shoppingcart@2826f61]" started-at="2025-02-17T11:10:07 IST" name="teardown" finished-at="2025-02-17T11:10:07 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.shoppingcart -->
+      <class name="TutorialNinja.Cart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:14 IST" name="setup" finished-at="2025-02-17T11:09:18 IST" duration-ms="3793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:18 IST" name="testCart" data-provider="CartData" finished-at="2025-02-17T11:09:21 IST" duration-ms="2895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:21 IST" name="teardown" finished-at="2025-02-17T11:09:21 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:21 IST" name="setup" finished-at="2025-02-17T11:09:24 IST" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:24 IST" name="testCart" data-provider="CartData" finished-at="2025-02-17T11:09:29 IST" duration-ms="4128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:29 IST" name="teardown" finished-at="2025-02-17T11:09:29 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:29 IST" name="setup" finished-at="2025-02-17T11:09:33 IST" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCart(java.lang.String,java.lang.String)[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:33 IST" name="testCart" data-provider="CartData" finished-at="2025-02-17T11:09:36 IST" duration-ms="3907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canon EOS 5D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TutorialNinja.Cart@12c7a01b]" started-at="2025-02-17T11:09:37 IST" name="teardown" finished-at="2025-02-17T11:09:37 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TutorialNinja.Cart -->
+    </test> <!-- Login and Register Tests -->
+  </suite> <!-- TutorialNinja Test Suite -->
+</testng-results>
